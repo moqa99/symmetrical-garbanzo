@@ -2,132 +2,109 @@
 
 # Mohammad Qanadilo
 
-### DevOps Engineer Student | Cloud • Linux • Infrastructure • Automation
+**DevOps Engineer student · Infrastructure · Cloud operations · Automation**
 
-Building practical skills in cloud infrastructure, Linux administration, networking, virtualization and automation.
+Stockholm, Sweden · [GitHub profile](https://github.com/moqa99)
+
+*I build and troubleshoot systems from code and data to networks, servers and cloud services.*
 
 </div>
 
 ---
 
-## About Me
+## About
 
-I'm a **DevOps Engineer student at Nackademin in Sweden**, focused on understanding how modern infrastructure works from the operating system and network layer up to cloud services and automation.
+I study **DevOps Engineer at Nackademin**. My work combines programming, databases, Linux and Windows Server, networking and security with practical infrastructure labs. I enjoy tracing a problem across the whole system, testing a solution and documenting what made it work.
 
-I enjoy building environments, troubleshooting problems and turning manual infrastructure tasks into structured, repeatable solutions.
+I'm currently studying **cloud operations** and developing a Hyper-V lab alongside Azure and identity coursework. I am building this profile into a portfolio for **LIA and junior infrastructure / DevOps roles**.
 
-- 🎓 Studying **DevOps Engineering**
-- 🐧 Working with **Linux administration and troubleshooting**
-- ☁️ Building experience with **Microsoft Azure**
-- 🖥️ Working with **Windows Server, Active Directory and Hyper-V**
-- 📦 Learning and applying **Docker, KVM/QEMU and virtualization**
-- 🌐 Practicing **TCP/IP, subnetting, DNS, DHCP, VPN and network troubleshooting**
-- ⚙️ Interested in **automation, infrastructure, cloud and security**
-- 📚 Currently expanding my skills in **Azure, Entra ID, IAM and hybrid cloud environments**
+## What I have worked with
 
----
+| Area | Coursework and practical use |
+| --- | --- |
+| **Programming** | Python application development, Java fundamentals and code troubleshooting; structuring projects, handling data and solving problems with code. |
+| **Databases** | SQL, SQLite and MariaDB; data models, queries, stored procedures, backup and restore in course projects. |
+| **Systems** | Linux and Windows Server administration; services, users, permissions, storage, PowerShell and command-line troubleshooting. |
+| **Networking & identity** | TCP/IP, IP addressing, subnetting, virtual networks, DNS, DHCP, Active Directory, domain joins and VPN in lab environments. |
+| **Security** | Access control, firewalls, HTTPS/TLS, vulnerability awareness and layered protection in coursework and group labs. |
+| **Collaboration** | Agile project methods, technical documentation, team delivery and presenting design decisions. |
+| **Cloud — in progress** | Microsoft Azure, Entra ID, cloud networking and identity in the ongoing cloud operations course. |
 
-## Technical Skills
+**Tools and technologies used in coursework:** Python · Java · SQL · SQLite · MariaDB · Linux · Ubuntu · Windows Server · PowerShell · Hyper-V · Active Directory · DNS · DHCP · Apache · HTTPS/TLS · WireGuard · UFW · Fail2ban · Git · GitHub
 
-### Operating Systems & Administration
-![Linux](https://img.shields.io/badge/Linux-Administration-111111?style=flat-square&logo=linux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-Server-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows_Server-Administration-0078D4?style=flat-square&logo=windows&logoColor=white)
+> The technologies above describe education and lab experience. Azure/Entra ID work is still in progress; planned curriculum is listed separately below.
 
-### Cloud & Identity
-![Azure](https://img.shields.io/badge/Microsoft_Azure-Cloud-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Entra ID](https://img.shields.io/badge/Microsoft_Entra_ID-IAM-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active_Directory-Identity-0078D4?style=flat-square&logo=windows&logoColor=white)
+## Selected work
 
-### Containers & Virtualization
-![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Hyper-V](https://img.shields.io/badge/Hyper--V-Virtualization-0078D4?style=flat-square&logo=windows&logoColor=white)
-![KVM](https://img.shields.io/badge/KVM%20%2F%20QEMU-Virtualization-111111?style=flat-square&logo=linux&logoColor=white)
+### Secure Virtual Data Center · group project
 
-### Automation & Version Control
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Collaboration-181717?style=flat-square&logo=github&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=flat-square&logo=powershell&logoColor=white)
+Designed and presented a small virtual company environment with **Windows Server** for Active Directory, DNS, DHCP and certificate services, and **Ubuntu/Apache** for a web service over HTTPS. The group design used separate internal networks, WireGuard VPN, firewall rules and Fail2ban. My work included explaining the architecture and security choices. This was an educational group environment.
 
-### Infrastructure & Networking
-`TCP/IP` • `Subnetting` • `DNS` • `DHCP` • `VPN` • `Firewalls` • `IAM` • `LVM` • `Network Troubleshooting`
+**CV title:** Secure Virtual Data Center  
+**Evidence to publish:** an original architecture diagram, my own configuration notes, checks and troubleshooting notes, with school and group permissions respected.
 
----
+### Virtualized Enterprise Infrastructure · ongoing lab
 
-## What I Can Work With
+Building and troubleshooting a **Hyper-V multi-VM environment** with a domain controller, file server and SQL server. Current work includes virtual switches, IP configuration, domain membership and access rights. The related Azure and cloud identity exercises are **in progress**; I will document implemented components and verification as they are completed.
 
-```text
-Infrastructure
-├── Linux & Windows Server administration
-├── Virtual machines and virtual networks
-├── Active Directory, DNS and DHCP
-├── Storage and LVM
-└── Basic infrastructure security
+**CV title:** Virtualized Enterprise Infrastructure — Hyper-V & Cloud Operations (ongoing)  
+**Evidence to publish:** topology, addressing plan, configuration steps, tests, errors encountered and fixes.
 
-Cloud
-├── Microsoft Azure
-├── Microsoft Entra ID
-├── Identity & Access Management
-├── Azure networking
-└── Hybrid infrastructure concepts
+### Event Database & Recovery Lab · coursework
 
-DevOps
-├── Git & GitHub
-├── Bash and PowerShell
-├── Docker
-├── Troubleshooting & documentation
-└── Repeatable infrastructure workflows
-```
+Built an event-management database in **MariaDB** with events, attendees, event types and registrations. Worked with SQL queries, a stored procedure for attendee counts by date range, and database backup and restore.
 
----
+**CV title:** Event Database & Recovery Lab — MariaDB / SQL  
+**Evidence to publish:** schema, sample data, queries, procedure, backup/restore instructions and validation.
 
-## Current Focus
+### Python Movie Database · group coursework
 
-I'm currently turning my coursework and lab environments into documented GitHub projects that demonstrate not only **what technologies I have used**, but **how I use them to design, configure and troubleshoot real systems**.
+Built a menu-driven **Python** movie application using external JSON data and **SQLite** to search films and manage favorites. The project covered modular code, database operations, input handling and error handling.
 
-Areas currently being developed:
+**CV title:** Python Movie Database — Python / SQLite  
+**Evidence to publish:** runnable code, setup instructions, example usage and a short account of my contribution.
 
-- ☁️ Azure cloud infrastructure and networking
-- 🔐 Microsoft Entra ID and Identity & Access Management
-- 🏢 Windows Server / Active Directory infrastructure
-- 🐧 Linux server administration
-- 📦 Docker and containerization
-- 🖥️ Hyper-V and KVM/QEMU virtualization
-- 🌐 Network design and troubleshooting
-- ⚙️ Automation with Bash and PowerShell
+### Linux Infrastructure & System Administration · course labs
 
----
+Practical work across **Linux 1 and Linux 2**, including command-line administration, users and permissions, services, networking and troubleshooting. Individual lab write-ups will be added as they are reviewed for publication.
 
-## Engineering Mindset
+**CV title:** Linux Infrastructure & System Administration
 
-I approach technical problems by trying to understand the whole system rather than only fixing the visible symptom.
+## Education: the full DevOps curriculum
 
-**Understand → isolate → troubleshoot → document → improve → automate**
+**Nackademin · DevOps Engineer (YH)**  
+Course status reflects my progress in **September 2026**. This section covers the full program while separating experience from upcoming study. [Official program and course descriptions](https://nackademin.se/utbildningar/devops-engineer/).
 
-My goal is to build reliable infrastructure while continuously improving how efficiently and securely systems are managed.
+| Status | Course | How it connects to the portfolio |
+| --- | --- | --- |
+| Completed | Programmering 1 | Programming foundations, problem solving and the Python movie project. |
+| Completed | Programmering 2 | Deeper Python development and preparation for automation. |
+| Completed | Programmering 3 | Java development and code troubleshooting. |
+| Completed | Databashantering | SQL, data modelling and the MariaDB event project. |
+| Completed | Projektmetodik och agila metoder | Planning, collaboration, documentation and delivery in teams. |
+| Completed | Windows Server | Server administration and core infrastructure services in labs. |
+| Completed | Linux 1 | Linux installation, configuration and command-line administration. |
+| Completed | LAN | IP addressing, network configuration and connectivity troubleshooting. |
+| Completed | IT-säkerhet och sårbarhetsanalys | Security thinking and identifying risks in technical solutions. |
+| Completed | Linux 2 | Linux services, administration and troubleshooting. |
+| In progress | Molndrift av tjänster och applikationer | Azure, cloud networking and identity; Hyper-V / cloud operations lab. |
+| Upcoming | Automatisering med configuration management-program | Planned coursework in repeatable configuration and automation. |
+| Upcoming | Continuous integration och continuous delivery | Planned coursework in automated build and delivery workflows. |
+| Upcoming | Affärsmannaskap | Planned coursework in business context and professional responsibility. |
+| Upcoming | LIA | Workplace learning; seeking an opportunity to apply these skills. |
+| Upcoming | Examensarbete | Final applied project later in the program. |
 
----
+## How I work
 
-## Portfolio
+**Map the system → reproduce the issue → isolate the cause → verify the fix → document the result.**
 
-This GitHub profile is being developed into my technical portfolio. Upcoming repositories will document complete lab environments with:
-
-- Architecture and network diagrams
-- Technical requirements
-- Installation and configuration
-- Commands and configuration examples
-- Security considerations
-- Troubleshooting and lessons learned
-- Screenshots and verification
-- Improvements and automation opportunities
+My earlier work in security, retail, restaurants and logistics strengthened my ability to follow procedures, communicate with different people, prioritize under pressure and hand work over clearly. I bring those habits into infrastructure work and team projects.
 
 ---
 
 <div align="center">
 
-### Currently building my DevOps portfolio 🚀
-
-**Cloud • Infrastructure • Linux • Automation • Networking**
+**Open to LIA opportunities in DevOps, cloud operations and infrastructure.**  
+[Explore my repositories](https://github.com/moqa99?tab=repositories)
 
 </div>
