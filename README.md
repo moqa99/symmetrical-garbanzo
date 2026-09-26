@@ -1,110 +1,110 @@
 <div align="center">
 
-# Mohammad Qanadilo
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
+  <img src="assets/profile-light.svg" alt="Mohammad Qanadilo — DevOps Engineer student. Infrastructure, cloud and troubleshooting." width="100%">
+</picture>
 
-**DevOps Engineer student · Infrastructure · Cloud operations · Automation**
+<br>
 
-Stockholm, Sweden · [GitHub profile](https://github.com/moqa99)
+![DevOps student](https://img.shields.io/badge/DEVOPS-ENGINEER%20STUDENT-0B6E75?style=flat-square)
+![Nackademin](https://img.shields.io/badge/NACKADEMIN-STOCKHOLM-314A68?style=flat-square)
+![Current focus](https://img.shields.io/badge/CURRENT%20FOCUS-CLOUD%20OPERATIONS-855D3B?style=flat-square)
 
-*I build and troubleshoot systems from code and data to networks, servers and cloud services.*
+**[About](#about-me) · [What I work with](#what-i-work-with) · [Projects](#selected-work) · [Courses](#my-devops-education)**
 
 </div>
 
 ---
 
-## About
+## About me
 
-I study **DevOps Engineer at Nackademin**. My work combines programming, databases, Linux and Windows Server, networking and security with practical infrastructure labs. I enjoy tracing a problem across the whole system, testing a solution and documenting what made it work.
+Hi, I'm **Mohammad**. I study **DevOps Engineer at Nackademin** in Stockholm. I like understanding how the pieces of a system fit together: the code, the data, the operating system, the network and the infrastructure that keeps everything running.
 
-I'm currently studying **cloud operations** and developing a Hyper-V lab alongside Azure and identity coursework. I am building this profile into a portfolio for **LIA and junior infrastructure / DevOps roles**.
+In my labs, I build environments, investigate what breaks and document how I fixed it. I am currently learning **cloud operations with Azure and identity services**, while building a virtual server environment in Hyper-V.
 
-## What I have worked with
+My experience from security, retail, restaurants and logistics has shaped the way I work: stay calm, follow through, notice details and communicate clearly when other people depend on the result.
 
-| Area | Coursework and practical use |
-| --- | --- |
-| **Programming** | Python application development, Java fundamentals and code troubleshooting; structuring projects, handling data and solving problems with code. |
-| **Databases** | SQL, SQLite and MariaDB; data models, queries, stored procedures, backup and restore in course projects. |
-| **Systems** | Linux and Windows Server administration; services, users, permissions, storage, PowerShell and command-line troubleshooting. |
-| **Networking & identity** | TCP/IP, IP addressing, subnetting, virtual networks, DNS, DHCP, Active Directory, domain joins and VPN in lab environments. |
-| **Security** | Access control, firewalls, HTTPS/TLS, vulnerability awareness and layered protection in coursework and group labs. |
-| **Collaboration** | Agile project methods, technical documentation, team delivery and presenting design decisions. |
-| **Cloud — in progress** | Microsoft Azure, Entra ID, cloud networking and identity in the ongoing cloud operations course. |
+> **My approach:** understand the system → isolate the problem → test a fix → verify it → document it.
 
-**Tools and technologies used in coursework:** Python · Java · SQL · SQLite · MariaDB · Linux · Ubuntu · Windows Server · PowerShell · Hyper-V · Active Directory · DNS · DHCP · Apache · HTTPS/TLS · WireGuard · UFW · Fail2ban · Git · GitHub
+## What I work with
 
-> The technologies above describe education and lab experience. Azure/Entra ID work is still in progress; planned curriculum is listed separately below.
+| Layer | Experience from coursework and labs |
+| :--- | :--- |
+| **Code & data** | Python, Java, SQL, SQLite, MariaDB; application structure, data handling, queries and troubleshooting. |
+| **Operating systems** | Linux, Ubuntu, Windows Server; command line, services, accounts, permissions and administration. |
+| **Networks & identity** | TCP/IP, IP addressing, virtual networks, DNS, DHCP, Active Directory, domain joins and VPN. |
+| **Infrastructure & security** | Hyper-V, server roles, Apache/HTTPS, WireGuard, UFW, Fail2ban, access control and security analysis. |
+| **Cloud · in progress** | Microsoft Azure, Entra ID, cloud networking and identity in my current course. |
+| **Ways of working** | Git and GitHub, PowerShell, agile methods, technical documentation and systematic troubleshooting. |
 
 ## Selected work
 
-### Secure Virtual Data Center · group project
+These are **education and lab projects**. I am preparing repository documentation so that the implementation, tests and lessons learned can be inspected here.
 
-Designed and presented a small virtual company environment with **Windows Server** for Active Directory, DNS, DHCP and certificate services, and **Ubuntu/Apache** for a web service over HTTPS. The group design used separate internal networks, WireGuard VPN, firewall rules and Fail2ban. My work included explaining the architecture and security choices. This was an educational group environment.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 · Secure Virtual Data Center</h3>
+      <p><strong>Group project · completed</strong></p>
+      <p>A small virtual company environment with Windows Server for AD, DNS, DHCP and certificate services, plus Ubuntu/Apache over HTTPS. The design included segmented internal networks, WireGuard, firewall rules and Fail2ban. I presented the architecture and security decisions.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 · Virtualized Enterprise Infrastructure</h3>
+      <p><strong>Hyper-V / cloud operations lab · in progress</strong></p>
+      <p>A multi-VM environment with a domain controller, file server and SQL server. I am working through virtual switches, IP configuration, domain membership, access rights and troubleshooting. Azure and cloud identity work is part of the ongoing course.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 · Event Database &amp; Recovery Lab</h3>
+      <p><strong>MariaDB / SQL · completed coursework</strong></p>
+      <p>An event-management database with attendees, event types and registrations. The work included SQL queries, a stored procedure for attendee counts, and backup and restore.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 · Python Movie Database</h3>
+      <p><strong>Python / SQLite · completed group coursework</strong></p>
+      <p>A menu-driven film application that uses external JSON data and SQLite for search and favorites. It brought together application structure, data persistence and error handling.</p>
+    </td>
+  </tr>
+</table>
 
-**CV title:** Secure Virtual Data Center  
-**Evidence to publish:** an original architecture diagram, my own configuration notes, checks and troubleshooting notes, with school and group permissions respected.
+## My DevOps education
 
-### Virtualized Enterprise Infrastructure · ongoing lab
+**Nackademin · DevOps Engineer (YH)** — course status as of **September 2026**. The full course list and descriptions are on [Nackademin's program page](https://nackademin.se/utbildningar/devops-engineer/).
 
-Building and troubleshooting a **Hyper-V multi-VM environment** with a domain controller, file server and SQL server. Current work includes virtual switches, IP configuration, domain membership and access rights. The related Azure and cloud identity exercises are **in progress**; I will document implemented components and verification as they are completed.
+### Completed coursework
 
-**CV title:** Virtualized Enterprise Infrastructure — Hyper-V & Cloud Operations (ongoing)  
-**Evidence to publish:** topology, addressing plan, configuration steps, tests, errors encountered and fixes.
+| Foundation | Systems & infrastructure |
+| :--- | :--- |
+| Programmering 1 | Windows Server |
+| Programmering 2 | Linux 1 |
+| Programmering 3 | LAN |
+| Databashantering | IT-säkerhet och sårbarhetsanalys |
+| Projektmetodik och agila metoder | Linux 2 |
 
-### Event Database & Recovery Lab · coursework
+**How the courses connect:** programming and databases help me understand applications and data; Linux, Windows Server and LAN give me the system and network foundation; security and agile methods inform how I design, collaborate and document.
 
-Built an event-management database in **MariaDB** with events, attendees, event types and registrations. Worked with SQL queries, a stored procedure for attendee counts by date range, and database backup and restore.
+### In progress
 
-**CV title:** Event Database & Recovery Lab — MariaDB / SQL  
-**Evidence to publish:** schema, sample data, queries, procedure, backup/restore instructions and validation.
+**Molndrift av tjänster och applikationer** · Azure, cloud infrastructure, networking and identity.
 
-### Python Movie Database · group coursework
+### Upcoming in the program
 
-Built a menu-driven **Python** movie application using external JSON data and **SQLite** to search films and manage favorites. The project covered modular code, database operations, input handling and error handling.
+- Automatisering med configuration management program
+- Continuous integration och continuous delivery
+- Affärsmannaskap
+- LIA
+- Examensarbete
 
-**CV title:** Python Movie Database — Python / SQLite  
-**Evidence to publish:** runnable code, setup instructions, example usage and a short account of my contribution.
-
-### Linux Infrastructure & System Administration · course labs
-
-Practical work across **Linux 1 and Linux 2**, including command-line administration, users and permissions, services, networking and troubleshooting. Individual lab write-ups will be added as they are reviewed for publication.
-
-**CV title:** Linux Infrastructure & System Administration
-
-## Education: the full DevOps curriculum
-
-**Nackademin · DevOps Engineer (YH)**  
-Course status reflects my progress in **September 2026**. This section covers the full program while separating experience from upcoming study. [Official program and course descriptions](https://nackademin.se/utbildningar/devops-engineer/).
-
-| Status | Course | How it connects to the portfolio |
-| --- | --- | --- |
-| Completed | Programmering 1 | Programming foundations, problem solving and the Python movie project. |
-| Completed | Programmering 2 | Deeper Python development and preparation for automation. |
-| Completed | Programmering 3 | Java development and code troubleshooting. |
-| Completed | Databashantering | SQL, data modelling and the MariaDB event project. |
-| Completed | Projektmetodik och agila metoder | Planning, collaboration, documentation and delivery in teams. |
-| Completed | Windows Server | Server administration and core infrastructure services in labs. |
-| Completed | Linux 1 | Linux installation, configuration and command-line administration. |
-| Completed | LAN | IP addressing, network configuration and connectivity troubleshooting. |
-| Completed | IT-säkerhet och sårbarhetsanalys | Security thinking and identifying risks in technical solutions. |
-| Completed | Linux 2 | Linux services, administration and troubleshooting. |
-| In progress | Molndrift av tjänster och applikationer | Azure, cloud networking and identity; Hyper-V / cloud operations lab. |
-| Upcoming | Automatisering med configuration management-program | Planned coursework in repeatable configuration and automation. |
-| Upcoming | Continuous integration och continuous delivery | Planned coursework in automated build and delivery workflows. |
-| Upcoming | Affärsmannaskap | Planned coursework in business context and professional responsibility. |
-| Upcoming | LIA | Workplace learning; seeking an opportunity to apply these skills. |
-| Upcoming | Examensarbete | Final applied project later in the program. |
-
-## How I work
-
-**Map the system → reproduce the issue → isolate the cause → verify the fix → document the result.**
-
-My earlier work in security, retail, restaurants and logistics strengthened my ability to follow procedures, communicate with different people, prioritize under pressure and hand work over clearly. I bring those habits into infrastructure work and team projects.
+These are part of my program plan and are **not presented as completed practical experience**.
 
 ---
 
 <div align="center">
 
-**Open to LIA opportunities in DevOps, cloud operations and infrastructure.**  
-[Explore my repositories](https://github.com/moqa99?tab=repositories)
+**Interested in infrastructure, cloud operations and the practical side of DevOps.**<br>
+[Repositories](https://github.com/moqa99?tab=repositories) · [Nackademin DevOps Engineer](https://nackademin.se/utbildningar/devops-engineer/)
 
 </div>
